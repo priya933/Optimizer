@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int base,height,area;
+cout<<"enter a base of the triangle"<<endl;
+cin>>base;
+cout<<"enter a height of the triangle"<<endl;
+cin>>height;
+area=0.5*base*height;
+cout<<area<<endl;
